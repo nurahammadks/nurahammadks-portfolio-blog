@@ -86,3 +86,11 @@
 		height: 400px;
 	}
 }
+@media screen and (max-width: 450px){
+	.logo-area{
+		width: 40%;
+	}
+	.copyright-section{
+		width: 65%;
+	}
+}
