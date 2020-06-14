@@ -1,0 +1,91 @@
+@media screen and (max-width: 980px){
+	.menu-area{
+		width: 100%;
+		text-align: right;
+		margin-top: -30px;
+	}
+	.mobile-menu{
+		display: block;
+		margin-right: 5px;
+	}
+	.mobile-menu a{
+		font-size: 30px;
+		color: #fff;
+		text-decoration: none;
+	}
+	#home{
+		position: relative;
+		z-index: 1;
+	}
+	.header-menu nav{
+		display: none;
+		position: absolute;
+		z-index: 2;
+		top: 45px;
+		right: 108px;
+	}
+	.header-menu nav ul li a{
+		padding: 8px 5px;
+		width: 80px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.header-menu nav ul li{
+		display: block;
+	}
+	.copyright-section{
+		width: 35%;
+	}
+	.footer-navigation{
+		margin-top: 40px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 600px){
+	.copyright-section{
+		width: 55%;
+	}
+	.content-controll h1{
+		font-size: 50px;
+	}
+	.content-controll p{
+		font-size: 20px;
+	}
+	.content-controll{
+		margin-top: 65px;
+	}
+	.main-controll h2{
+		font-size: 25px;
+	}
+	.form-controler p{
+		font-size: 25px;
+	}
+	.form-controler{
+		width: 90%;
+	}
+	.contact-form-controler input[type="text"],
+	.contact-form-controler input[type="email"],
+	.contact-form-controler input[type="number"],
+	.contact-form-controler textarea{
+		width: 100%;
+	}
+	.contact-form-controler{
+		width: 90%;
+	}
+	.submit-button input[type="submit"]{
+		font-size: 20px;
+	}
+	.shortcut{
+		width: 85%;
+		margin-top: 30px;
+	}
+	.header-background-controll{
+		height: 400px;
+	}
+	main{
+		margin-bottom: 50px;
+	}
+	.shortcut{
+		margin-bottom: 0;
+	}
+}

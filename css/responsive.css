@@ -1,0 +1,110 @@
+@media screen and (max-width: 980px){
+	.menu-area{
+		width: 100%;
+		text-align: right;
+		margin-top: -30px;
+	}
+	.mobile-menu{
+		display: block;
+		margin-right: 5px;
+	}
+	.mobile-menu a{
+		font-size: 30px;
+		color: #fff;
+		text-decoration: none;
+	}
+	#home{
+		position: relative;
+		z-index: 1;
+	}
+	.header-menu nav{
+		display: none;
+		position: absolute;
+		z-index: 2;
+		top: 45px;
+		right: 108px;
+	}
+	.header-menu nav ul li a{
+		padding: 8px 5px;
+		width: 80px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.header-menu nav ul li{
+		display: block;
+	}
+	.header-middle-content h1 {
+    color: #fff;
+    font-size: 50px;
+    width: 75%;
+    margin-left: 150px;
+   }
+   .copyright-section{
+   	width: 40%;
+   }
+   .footer-navigation{
+   	width: 100%;
+   }
+   .quates{
+   	width: 95%;
+   }
+   .quates q{
+   	font-size: 20px;
+   }
+}
+@media screen and (max-width: 600px){
+	.header-middle-content h1{
+		font-size: 32px;
+		width: 100%;
+		margin-left: 10px;
+	}
+	.header-middle-content h2{
+		font-size: 20px;
+		margin-left: 10px;
+	}
+	.header-middle-content p{
+		font-size: 18px;
+		margin-left: 10px;
+	}
+	.header-middle-content{
+		margin-top: 120px;
+	}
+	.content-1 p,
+	.content-2 p,
+	.content-3 p{
+		font-size: 25px;
+	}
+	.footer-navigation nav ul li a i {
+    font-size: 20px;
+    margin-top: 14px;
+	}
+	.footer-navigation nav ul li a{
+		width: 50px;
+		height: 50px;
+	}
+	.copyright-section p{
+		font-size: 18px;
+	}
+	.content-2 h2,
+	.content-3 h2{
+		font-size: 30px;
+	}
+	.quates q{
+		font-size: 12px;
+	}
+	.img-section em{
+		font-size: 15px;
+	}
+	.logo-area{
+		width: 35%;
+	}
+	.header-background-controll{
+		height: 400px;
+	}
+	.header-middle-content{
+		margin-top: 50px;
+	}
+	hr{
+		margin-bottom: 50px;
+	}
+}

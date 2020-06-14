@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: p;
+	line-height: 1.34;
+}
+/*google fonts here*/
+/*if need bold and signature font*/
+@font-face{
+	src: url('../google.fonts/Kaushan_Script/KaushanScript-Regular.ttf');
+	font-family: bs;
+}
+@font-face{
+	src: url('../google.fonts/stisfy/Satisfy-Regular.ttf');
+	font-family: bs2;
+}
+/*if need fonts for paragraph*/
+@font-face{
+	src: url('../google.fonts/Markazi_Text/MarkaziText-VariableFont_wght.ttf');
+	font-family: p;
+}
+/*if need heading fonts*/
+@font-face{
+	src: url('../google.fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
+	font-family: h;
+}
+/*header area start from here*/
+.mobile-menu{
+	display: none;
+}
+.header-background-controll{
+	width: 100%;
+	height: 600px;
+	background: url('../images1/contact-bg.jpg') no-repeat center center / cover;
+	margin-bottom: 100px;
+}
+.header-top{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 50px;
+}
+.header-top:after{
+	content: '';
+	clear: both;
+	display: inline-block;
+}
+.logo-area{
+	width: 35%;
+	float: left;
+}
+.menu-area{
+	width: 55%;
+	float: left;
+}
+.logo-area h4{
+	color: #fff;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 25px;
+	font-variant: small-caps;
+	font-family: h;
+}
+.header-menu nav ul li{
+	display: inline-block;
+}
+.header-menu nav ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: 10px;
+	padding: 10px 25px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	color: #fff;
+	background: rgba(240, 244, 242, 0.62);
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.header-menu nav ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+.header-menu nav{
+	text-align: right;
+	margin-right: -100px;
+}
+.header-menu nav ul li .active{
+	color: #000;
+	background: #fff;
+}
+.content-controll h1{
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 0;
+	color: #fff;
+	font-family: h;
+}
+.content-controll hr{
+	border: 0;
+	border-top: 5px solid #fff;
+	width: 120px;
+	margin: auto;
+}
+.content-controll p{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 15px;
+}
+/*header area stop here*/
+/*main area start from here*/
+main{
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+.form-controler{
+	width: 48%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.form-controler p{
+	font-size: 40px;
+	color: #000;
+}
+.contact-form-controler{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.contact-form-controler input[type="text"],
+.contact-form-controler input[type="email"],
+.contact-form-controler input[type="number"],
+.contact-form-controler textarea{
+	display: inline-block;
+	width: 80%;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	padding: 3px 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	color: #fff;
+	background: #000;
+}
+.contact-form-controler input[type="text"]:hover,
+.contact-form-controler input[type="email"]:hover,
+.contact-form-controler input[type="number"]:hover,
+.contact-form-controler textarea:hover{
+	box-shadow:  0px 0px 2px 2px #000;
+}
+.contact-form-controler input[type="text"]{
+	margin-top: 20px;
+}
+.contact-form-controler textarea{
+	height: 250px;
+}
+.submit-button{
+	text-align: center;
+}
+.submit-button input[type="submit"]{
+	padding: 10px 25px;
+	margin-top: 20px;
+	font-variant: small-caps;
+	font-size: 30px;
+	background: #000;
+	color: #fff;
+}
+.submit-button input[type="submit"]:hover{
+	box-shadow:  0px 0px 2px 2px #000;
+}
+.shortcut{
+	width: 48%;
+	margin: auto;
+	text-align: right;
+	margin-bottom: 40px;
+	margin-top: 55px;
+}
+.home-icon a{
+	text-decoration: none;
+	color: #fff;
+	background: #8a1717e0;
+	padding: 8px 20px;
+	border-radius: 5px;
+	opacity: 0.5;
+}
+.home-icon a:hover{
+	opacity: 1;
+}
+/*main area stop here*/
+/*footer area start from here*/
+.footer-navigation{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+}
+.footer-navigation nav ul li{
+	display: inline-block;
+}
+.footer-navigation nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: auto;
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-navigation nav ul li:last-child a{
+	margin-right: 0;
+}
+.footer-navigation nav ul li a:hover{
+	color: #ddd;
+	background: #999;
+}
+.footer-navigation nav ul li a i{
+	font-size: 26px;
+	margin-top: 10px;
+}
+.copyright-section{
+	width: 22%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.copyright-section p{
+	font-size: 22px;
+	text-transform: capitalize;
+	text-align: center;
+}
+.copyright-section p:hover{
+	color: #fff;
+	background: #0085A1;
+	border-radius: 5px;
+}
+/*footerr area stop here*/
